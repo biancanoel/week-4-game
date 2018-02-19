@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+    
+}
+body {
+    background-image: url("sprinkles.jpg");
+    background-color: #cccccc;
+}
+
+
+h1,h2, #win-or-lose, #magic-number, #sweet-tooth {
+    font-family: 'Shrikhand', cursive;
+}
+h1 { font-size: 320%;}
+
+p { font-size: 150%;}
+
+#win-or-lose {
+    font-size: 125%;
+}
+
+#magic-number, #sweet-tooth {
+    font-size: 300%;
+}
+
+.pink {
+    background: rgb(249, 211, 249);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px; 
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+img {
+    padding-left: 15px;
+}
+#magic-number,
+#sweet-tooth {
+   
+}
+

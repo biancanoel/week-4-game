@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sweet Niblets Collector</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+
+<body>
+    <div class="row"> 
+        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+            <h1> Sweet Niblets! </h1>
+            <p class="pink"> Click each of the 4 cupcakes below to add a specific amount of points to your total sweet tooth total. Win by exactly matching your sweet tooth total to the Magic Number, but don't go over! </p>
+        </div>
+    </div>    
+
+        <div class="row">
+
+            <div class="col-md-3 col-md-offset-2 magic-number-box">
+                <h2> Magic Number </h2>
+                <p id="magic-number"> ? </p>
+            </div>
+
+            <div class="col-md-2 scoreboard pink">
+                    <div id="win-or-lose"> Good Luck! </div>
+                    <div id= "wins"> Wins: 0 </div>
+                    <div id= "losses"> Losses: 0 </div>
+            </div>
+
+            <div class="col-md-3 sweet-tooth-box">
+                    <h2> Sweet Tooth </h2>
+                    <p id="sweet-tooth"> 0 </p>
+            </div>
+        </div>
+
+        <div class="row"> 
+            <div class="col-md-1"></div>
+            <div "col-md-7 ">
+                <img id="ocean-cupcakes"  src="assets/images/ocean-cupcakes.jpg" alt="Ocean Cupcakes" width="225px" class="img-circle cupcake">
+                
+
+                <img id="princess-cupcakes"  src="assets/images/princess-cupcakes.jpg" alt="Princess Cupcakes" width="225px" class="img-circle cupcake">
+
+                <img id="unicorn-cupcakes"  src="assets/images/unicorn-cupcakes.jpg" alt="Unicorn Cupcakes" width="225px" height="200px" class="img-circle cupcake">
+
+                <img id="usa-cupcakes"  src="assets/images/usa-cupcakes.jpg" alt="USA Cupcakes" width="225px" class="img-circle cupcake">
+            </div>
+
+        </div>
+       
+
+
+
+    
+    
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
